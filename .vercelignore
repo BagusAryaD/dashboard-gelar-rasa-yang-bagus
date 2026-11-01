@@ -1,0 +1,15 @@
+# Vercel builds from source and regenerates these.
+node_modules
+.next
+out
+.vercel
+
+# Local Python cache
+scripts/__pycache__
+*.py[cod]
+
+# Local logs and environment files
+*.log
+.env
+.env.*
+!.env.example
